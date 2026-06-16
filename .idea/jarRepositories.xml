@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="google-maven-central" />
+      <option name="name" value="Google Maven Central" />
+      <option name="url" value="https://maven-central.storage.googleapis.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus" />
+      <option name="name" value="Nexus OSS" />
+      <option name="url" value="http://192.168.220.6:8081/repository/nexus/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss-public-repository-group" />
+      <option name="name" value="JBoss Public Maven Repository Group" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jfrog-oss-releases" />
+      <option name="name" value="JFrog OSS repository" />
+      <option name="url" value="https://jcenter.bintray.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-snapshots" />
+      <option name="name" value="Spring Snapshots" />
+      <option name="url" value="https://repo.spring.io/libs-snapshot" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-central" />
+      <option name="name" value="Maven Central" />
+      <option name="url" value="https://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jfrog-oss-snapshots" />
+      <option name="name" value="JFrog OSS repository" />
+      <option name="url" value="https://oss.jfrog.org/oss-snapshot-local/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="osgeo" />
+      <option name="name" value="Open Source Geospatial Foundation Repository" />
+      <option name="url" value="https://repo.osgeo.org/repository/release/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-milestones" />
+      <option name="name" value="Spring Milestones" />
+      <option name="url" value="https://repo.spring.io/libs-milestone" />
+    </remote-repository>
+  </component>
+</project>
