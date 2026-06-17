@@ -11,20 +11,20 @@ import java.util.List;
 @RestController
 @RequestMapping("/incidents")
 @RequiredArgsConstructor
-public class IncidentController {
+public class IncidentController
+{
 
-    private final IncidentService service;
+	private final IncidentService service;
 
-    @PostMapping
-    public Incident create(
-            @RequestBody
-            CreateIncidentRequest request
-    ) {
-        return service.create(request);
-    }
+	@PostMapping
+	public Incident create(@RequestBody CreateIncidentRequest request)
+	{
+		return service.create(request);
+	}
 
-    @GetMapping
-    public List<Incident> getAll() {
-        return service.getAll();
-    }
+	@GetMapping
+	public List<Incident> getAll()
+	{
+		return service.getAll();
+	}
 }

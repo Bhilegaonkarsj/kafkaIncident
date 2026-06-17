@@ -3,7 +3,7 @@ package com.incident.dto;
 
 public record CreateIncidentRequest(
 
-        String title,
+        String incidentName,
 
         String description,
 

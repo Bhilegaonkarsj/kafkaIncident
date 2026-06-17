@@ -1,8 +1,10 @@
 package com.incident.dto;
 
+import java.util.UUID;
+
 public record IncidentCreatedEvent(
         Long incidentId,
-        String title,
-        String severity
+        UUID uid,
+        String incidentName
 ) {
 }

@@ -7,17 +7,13 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class IncidentProducer {
+public class IncidentProducer
+{
 
-    private final KafkaTemplate<String, Object> kafkaTemplate;
+	private final KafkaTemplate<String, Object> kafkaTemplate;
 
-    public void publish(
-            IncidentCreatedEvent event
-    ) {
-
-        kafkaTemplate.send(
-                "incident-created",
-                event
-        );
-    }
+	public void publish(IncidentCreatedEvent event)
+	{
+		kafkaTemplate.send("incident-created", event);
+	}
 }
